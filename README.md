@@ -1,6 +1,6 @@
-#TDD Hybrid Framework For RestassuredAPITesting_Employees_Project
-Oct 2020 
-Project description
+#TDD Hybrid Framework For RestassuredAPITesting_Employees_Project  
+Oct 2020   
+Project description  
 
 This is a Hybrid Framework with TDD approach For Rest assured API Testing Employees Project’s  
 • Select All Employee Details with GET Request  
@@ -9,36 +9,36 @@ This is a Hybrid Framework with TDD approach For Rest assured API Testing Employ
 • Delete Data from Employee Details with DELETE Request   
 
 
-To create this Framework I have used,   
+To create this Framework I have used,     
 
-• TDD approach
-• JDK Java OOP Concept
-• Eclipse
-• rest-assured
-• TestNG plugin , maven-compiler-plugin & maven-surefire-plugin in Eclipse
+• TDD approach  
+• JDK Java OOP Concept  
+• Eclipse  
+• rest-assured  
+• TestNG plugin , maven-compiler-plugin & maven-surefire-plugin in Eclipse  
 
-• Maven Project Structure & Update pom.xml with below dependencies
+• Maven Project Structure & Update pom.xml with below dependencies  
 
-rest-assured
-json-simple 
-TestNG
- extent reports -4
- log4j-core
- log4j-api
+rest-assured  
+json-simple   
+TestNG  
+ extent reports -4  
+ log4j-core  
+ log4j-api  
 
 
-• And Folder Structure looks like below
+• And Folder Structure looks like below  
 
- RestassuredAPITesting_Employees_Project 
- testBase(Packages)
- testCases(Packages)
- utilities(Packages)
- Reports(Folder)
- Logs(Folder)
- TestData(Folder)
- Pom.xml
+ RestassuredAPITesting_Employees_Project   
+ testBase(Packages)  
+ testCases(Packages)  
+ utilities(Packages)  
+ Reports(Folder)  
+ Logs(Folder)  
+ TestData(Folder)  
+ Pom.xml  
 
-• Adding logs & Extent Reports
-• Run tests using pom.xml, Command Prompt & run.bat file
-• For Version Control GIT & GITHUB…
+• Adding logs & Extent Reports  
+• Run tests using pom.xml, Command Prompt & run.bat file  
+• For Version Control GIT & GITHUB…  
 
