@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EmployeesRestAPISuite]">
+  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="TC003_Post_Employee_Recrd"/>
+          <include name="report"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="method"/>
+          <include name="tearDown"/>
+          <include name="createEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->

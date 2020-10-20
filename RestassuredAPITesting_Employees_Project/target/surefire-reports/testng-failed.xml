@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [EmployeesRestAPISuite]">
+  <test thread-count="5" verbose="0" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
+        <methods>
+          <include name="report"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="method"/>
+          <include name="updateEmployee"/>
+          <include name="TC004_Put_Employee_Recrd"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="TC003_Post_Employee_Recrd"/>
+          <include name="report"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="method"/>
+          <include name="tearDown"/>
+          <include name="createEmployee"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="report"/>
+          <include name="deleteEmployee"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="method"/>
+          <include name="tearDown"/>
+          <include name="TC005_Delete_Employee_Recrd"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->

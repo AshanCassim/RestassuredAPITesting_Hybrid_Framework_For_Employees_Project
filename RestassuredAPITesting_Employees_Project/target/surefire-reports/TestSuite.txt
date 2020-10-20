@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 34.287 s <<< FAILURE! - in TestSuite
+com.employeeapi.testCases.TC003_Post_Employee_Record.TC003_Post_Employee_Recrd  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.TC003_Post_Employee_Recrd(TC003_Post_Employee_Record.java:123)
+
+com.employeeapi.testCases.TC004_Put_Employee_Record.TC004_Put_Employee_Recrd  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at com.employeeapi.testCases.TC004_Put_Employee_Record.TC004_Put_Employee_Recrd(TC004_Put_Employee_Record.java:123)
+
+com.employeeapi.testCases.TC005_Delete_Employee_Record.TC005_Delete_Employee_Recrd  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at com.employeeapi.testCases.TC005_Delete_Employee_Record.TC005_Delete_Employee_Recrd(TC005_Delete_Employee_Record.java:105)
+
