@@ -2,7 +2,7 @@
 Oct 2020   
 Project description  
 
-This is a Hybrid Framework with TDD approach For Rest assured API Testing Employees Project’s  
+This is a Hybrid Framework For Rest assured API Testing Employees Project’s  
 • Select All Employee Details with GET Request  
 • Select Relevant Data About Single Employee with POST Request   
 • Update Data to Employee Details with  PUT Request 
@@ -10,8 +10,7 @@ This is a Hybrid Framework with TDD approach For Rest assured API Testing Employ
 
 
 To create this Framework I have used,     
-
-• TDD approach  
+ 
 • JDK Java OOP Concept  
 • Eclipse  
 • rest-assured  
